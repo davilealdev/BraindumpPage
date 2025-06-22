@@ -9,7 +9,7 @@ nav{
 }}
 }
 main{
-    background-image: linear-gradient(to bottom,#198754,#2bb072,#2bb0726d,#ffffffa0);
+    background-image: linear-gradient(to bottom,#198754,#2bb072,#ffffffa0);
 }
 #rand{
     width: 240px;
@@ -22,11 +22,24 @@ main{
     margin: auto;   
     justify-content: center;
 }
-
+#bdPreview{
+    padding: 30px 310px 310px 310px;
+}
+img{
+    border-radius: 10px;
+}
+#carouselExample{
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
 
 @media (max-width: 600px) {
     .navbar-toggler{
         margin-left: 200px;
+    }
+    #bdPreview{
+    padding: 10px;
     }
     
     .container {
