@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    font-family: "Pixelify Sans", sans-serif;
+}
+nav{
+   & .container-fluid{
+    & a{
+    color: rgb(186, 255, 173);
+}}
+}
+main{
+    background-image: linear-gradient(to bottom,#198754,#2bb072,#2bb0726d,#ffffffa0);
+}
+#rand{
+    width: 240px;
+    display: flex;
+    margin: auto;
+}
+
+#buttons{
+    display: flex;
+    margin: auto;   
+    justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+    .navbar-toggler{
+        margin-left: 200px;
+    }
+    
+    .container {
+    flex-direction: column;
+  }
+}
