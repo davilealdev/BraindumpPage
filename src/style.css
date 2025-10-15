@@ -11,6 +11,10 @@ nav{
 main{
     background-image: linear-gradient(to bottom,#198754,#34c98393,#ffffff);
 }
+
+body{
+    overflow-x: hidden;
+}
 #rand{
     width: 240px;
     display: flex;
@@ -35,7 +39,9 @@ img{
 }
 #whatis{
     text-align: center;
-    padding: 30px 310px 110px 310px;
+    width: 800px;
+    height: 300px;
+    margin: auto;
     
 }
 
