@@ -39,12 +39,9 @@ main{
     
     text-align: center;
     
-    padding: 6em;
-
-    & h1{
-        margin: 0px;
-        padding: 0px;
-        color: rgb(193, 255, 196);
-        font-weight: 700;
-    }
+    padding: 40px 10px 40px 10px;
+    color: rgb(193, 255, 196);
+    font-weight: 700;
+    font-size: 30px;
+    
 }
