@@ -35,6 +35,12 @@ main{
 
 }
 
+.info{
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .hero{
     
     text-align: center;
